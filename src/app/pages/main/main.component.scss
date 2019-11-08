@@ -1,0 +1,41 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #072d5a;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.description {
+  text-align: justify;
+}
+
+.btn {
+  align-self: center;
+  background-color: #184177;
+  color: white;
+  border-radius: 15px;
+  width: 30%;
+}
