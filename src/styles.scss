@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+  font-family: normal;
+  src: url(assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: medium;
+  src: url(assets/fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: bold;
+  src: url(assets/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'normal', sans-serif;
+  color: #676767;
+}

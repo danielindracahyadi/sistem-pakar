@@ -1,11 +1,8 @@
 <div class="background" *ngIf="main">
   <div class="card">
     <div class="image">
-      <img src="../assets/logo.png" />
+      <img src="../assets/logo.png" width="210" height="210" />
     </div>
-    <h1 class="title">
-      Diacom
-    </h1>
     <p class="description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -24,18 +21,54 @@
 </div>
 
 <div class="background" *ngIf="firstTree">
-  <div class="card">
-    <h1 class="title">
+  <div class="card-expert">
+    <h1 class="question">
       Disini masalahnya
     </h1>
     <div
-      style="align-self: center; text-align: center; justify-content: center; align-items: center;"
-      *ngFor="let problem of problems"
+      style="justify-content: flex-start; align-items: stretch;"
+      *ngFor="let problem of problems; index as i"
     >
-      <div class="problemCard">
+      <div
+        class="question-container"
+        [ngClass]="{
+          problemCard: problem.nama != selectedOption,
+          'problemCard-active': problem.nama == selectedOption
+        }"
+        (click)="onOptionPress(i)"
+      >
         {{ problem.nama }}
       </div>
     </div>
+  </div>
+  <div class="nav-container">
+    <button class="nav-btn back" (click)="back()">
+      Back
+    </button>
+    <button class="nav-btn next" (click)="next()">
+      Next
+    </button>
+  </div>
+</div>
+
+<div class="background" *ngIf="result">
+  <div class="card-expert">
+    <h3 class="problem-capt">Permasalahan yang kamu alami :</h3>
+    <h1 class="problem">Mati Lampu</h1>
+
+    <p class="explanation">
+      Mati lampu merupakan masalah akibat tidak adanya listrik yang bisa
+      dialirkan ke rumah kamu. ini bisa diakibatkan oleh kegagalan dari PLN
+      maupun kamu yang tidak membeli token listrik hingga listrik kamu mati.
+    </p>
+  </div>
+  <div class="nav-container">
+    <button class="nav-btn back" style="font-size: 16px;" (click)="back()">
+      Kembali ke Menu Utama
+    </button>
+    <button class="nav-btn next" (click)="back()">
+      Coba lagi
+    </button>
   </div>
 </div>
 <router-outlet></router-outlet>
