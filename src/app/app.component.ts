@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Dataset from '../assets/dataset.json';
 
 @Component({
@@ -6,7 +6,7 @@ import Dataset from '../assets/dataset.json';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit, OnChanges {
+export class AppComponent implements OnInit {
   main: boolean = true;
   firstTree: boolean = false;
   result: boolean = false;
@@ -22,8 +22,6 @@ export class AppComponent implements OnInit, OnChanges {
     this.questions = this.datasets;
   }
 
-  ngOnChanges() {}
-
   onOptionPress(idx: number) {
     this.currIndex = idx;
     this.selectedOption = this.questions[idx];
@@ -35,8 +33,6 @@ export class AppComponent implements OnInit, OnChanges {
   }
 
   back() {
-    // TODO : check if current is the first question, it should go back to main screen
-    // else go back to prev question
     if (!this.history.length) {
       this.main = true;
       this.firstTree = false;
@@ -50,10 +46,6 @@ export class AppComponent implements OnInit, OnChanges {
   }
 
   next() {
-    // TODO : check if current is the last question, it should navigate to result screen
-    // else navigate to next question
-
-    // pilih jawaban dulu baru bisa next
     this.history.push(this.currIndex);
     if (!this.selectedOption.next) {
       this.result = true;
@@ -65,6 +57,7 @@ export class AppComponent implements OnInit, OnChanges {
   }
 
   restart() {
+    this.history = [];
     this.questions = this.datasets;
     this.selectedOption = null;
     this.result = false;
