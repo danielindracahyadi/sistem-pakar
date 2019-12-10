@@ -23,21 +23,25 @@
 <div class="background" *ngIf="firstTree">
   <div class="card-expert">
     <h1 class="question">
-      Disini masalahnya
+      {{ questions[0].topic }}
     </h1>
     <div
       style="justify-content: flex-start; align-items: stretch;"
-      *ngFor="let problem of problems; index as i"
+      *ngFor="let question of questions; index as i"
     >
       <div
         class="question-container"
         [ngClass]="{
-          problemCard: problem.nama != selectedOption,
-          'problemCard-active': problem.nama == selectedOption
+          problemCard: selectedOption
+            ? question.gejala != selectedOption.gejala
+            : true,
+          'problemCard-active': selectedOption
+            ? question.gejala == selectedOption.gejala
+            : false
         }"
         (click)="onOptionPress(i)"
       >
-        {{ problem.nama }}
+        {{ question.gejala }}
       </div>
     </div>
   </div>
@@ -54,19 +58,14 @@
 <div class="background" *ngIf="result">
   <div class="card-expert">
     <h3 class="problem-capt">Permasalahan yang kamu alami :</h3>
-    <h1 class="problem">Mati Lampu</h1>
+    <h1 class="problem">{{ selectedOption.problem }}</h1>
 
     <p class="explanation">
-      Mati lampu merupakan masalah akibat tidak adanya listrik yang bisa
-      dialirkan ke rumah kamu. ini bisa diakibatkan oleh kegagalan dari PLN
-      maupun kamu yang tidak membeli token listrik hingga listrik kamu mati.
+      {{ selectedOption.solution }}
     </p>
   </div>
   <div class="nav-container">
-    <button class="nav-btn back" style="font-size: 16px;" (click)="back()">
-      Kembali ke Menu Utama
-    </button>
-    <button class="nav-btn next" (click)="back()">
+    <button class="nav-btn next" (click)="restart()">
       Coba lagi
     </button>
   </div>
