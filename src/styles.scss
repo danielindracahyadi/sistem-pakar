@@ -15,10 +15,11 @@
 
 html,
 body {
-  height: 100%;
+  // height: 100%;
+  height: auto !important;
+  font-family: 'normal', sans-serif;
+  color: #676767;
 }
 body {
   margin: 0;
-  font-family: 'normal', sans-serif;
-  color: #676767;
 }
