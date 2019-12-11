@@ -10,12 +10,14 @@
           {
             "gejala": "Tampak blok hitam, dan gambar tidak simetris/ acak",
             "problem": "Monitor Rusak",
-            "solution": "Beli Monitor baru di toko terdekat"
+            "solution": "Beli Monitor baru di toko terdekat",
+            "topic": "Masalah yang berhubungan dengan Tampilan"
           },
           {
             "gejala": "Tombol monitor hidup namun tidak ada gambar",
             "problem": "Monitor Rusak",
-            "solution": "Beli Monitor baru di toko terdekat"
+            "solution": "Beli Monitor baru di toko terdekat",
+            "topic": "Masalah yang berhubungan dengan Tampilan"
           },
           {
             "gejala": "Tampilan layar bergoyang",
@@ -24,7 +26,8 @@
               {
                 "gejala": "Layar ditampilkan setengah",
                 "problem": "Kerusakan Inverter LCD",
-                "solution": "Servis untuk memperbaiki inverter LCD"
+                "solution": "Servis untuk memperbaiki inverter LCD",
+                "topic": "Masalah yang berhubungan dengan Tampilan"
               }
             ]
           },
@@ -35,7 +38,8 @@
               {
                 "gejala": "Tidak ada gambar di monitor",
                 "problem": "Kerusakan Inverter LCD",
-                "solution": "Servis untuk memperbaiki inverter LCD"
+                "solution": "Servis untuk memperbaiki inverter LCD",
+                "topic": "Masalah yang berhubungan dengan Tampilan"
               }
             ]
           }
@@ -64,7 +68,8 @@
                           {
                             "gejala": "Muncul pesan error pada BIOS",
                             "problem": "Kerusakan Chipset Northbridge",
-                            "solution": "Coba bawa ke tempat servis, jika tidak bisa, dapat membeli motherboard baru"
+                            "solution": "Coba bawa ke tempat servis, jika tidak bisa, dapat membeli motherboard baru",
+                            "topic": "Masalah yang berhubungan dengan OS/BIOS"
                           }
                         ]
                       }
@@ -99,7 +104,8 @@
                           {
                             "gejala": "Crash / muncul error pada aplikasi",
                             "problem": "HDD Rusak",
-                            "solution": "Bawa ke tempat servis. Bila tidak dapat diselamatkan, dapat membeli HDD baru. Disarankan untuk beralih ke SSD"
+                            "solution": "Bawa ke tempat servis. Bila tidak dapat diselamatkan, dapat membeli HDD baru. Disarankan untuk beralih ke SSD",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
                           }
                         ]
                       }
@@ -132,7 +138,8 @@
                               {
                                 "gejala": "Kabel tidak terpasang dengan baik",
                                 "problem": "Baterai CMOS Habis",
-                                "solution": "Beli baterai CMOS di toko online atau toko fisik. Bongkar CPU dan ganti baterai tersebut pada motherboard dan segel kembali menggunakan timah dan solder. Jika tidak yakin, servis ke toko terdekat"
+                                "solution": "Beli baterai CMOS di toko online atau toko fisik. Bongkar CPU dan ganti baterai tersebut pada motherboard dan segel kembali menggunakan timah dan solder. Jika tidak yakin, servis ke toko terdekat",
+                                "topic": "Masalah yang berhubungan dengan Masa Hidup"
                               }
                             ]
                           }
@@ -147,7 +154,8 @@
                       {
                         "gejala": "Device driver informasi tidak terdeteksi dalam device manager",
                         "problem": "Kerusakan BIOS",
-                        "solution": "Servis untuk memperbaiki BIOS"
+                        "solution": "Servis untuk memperbaiki BIOS",
+                        "topic": "Masalah yang berhubungan dengan Dervice"
                       }
                     ]
                   }
@@ -168,7 +176,8 @@
                           {
                             "gejala": "Muncul pesan Disk Boot Failure",
                             "problem": "Kerusakan Chipset Southbridge",
-                            "solution": "Coba bawa ke tempat servis, jika tidak bisa, dapat membeli motherboard baru"
+                            "solution": "Coba bawa ke tempat servis, jika tidak bisa, dapat membeli motherboard baru",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
                           }
                         ]
                       }
@@ -197,7 +206,8 @@
                           {
                             "gejala": "Tidak muncul error message",
                             "problem": "Kerusakan pada power supply",
-                            "solution": "Perbaiki power supply"
+                            "solution": "Perbaiki power supply",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
                           }
                         ]
                       },
@@ -212,7 +222,8 @@
                               {
                                 "gejala": "Kabel tidak terpasang dengan baik",
                                 "problem": "Kerusakan pada Kabel colokan listrik",
-                                "solution": "Perbaiki kabel atau beli kabel colokan yang baru"
+                                "solution": "Perbaiki kabel atau beli kabel colokan yang baru",
+                                "topic": "Masalah yang berhubungan dengan Kabel"
                               },
                               {
                                 "gejala": "Kabel terpasang dengan baik",
@@ -225,7 +236,8 @@
                                       {
                                         "gejala": "Temperatur processor tinggi",
                                         "problem": "Kerusakan pada cooling fan atau kerusakan pada thermal paste yang kering",
-                                        "solution": "Ganti dengan cooling fan yang baru atau cek themal paste masih melekat atau tidak antara prosesor dan heat stink"
+                                        "solution": "Ganti dengan cooling fan yang baru atau cek themal paste masih melekat atau tidak antara prosesor dan heat stink",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
@@ -260,7 +272,8 @@
                           {
                             "gejala": "Informasi deteksi yang salah dalam BIOS",
                             "problem": "Kerusakan Master Boot Record",
-                            "solution": "Perbaiki master boot recordnya"
+                            "solution": "Perbaiki master boot recordnya",
+                            "topic": "Masalah yang berhubungan dengan Memory"
                           }
                         ]
                       }
@@ -281,7 +294,8 @@
                   {
                     "gejala": "Tidak dapat masuk sistem operasi",
                     "problem": "HDD Rusak",
-                    "solution": "Beli HDD baru"
+                    "solution": "Beli HDD baru",
+                    "topic": "Masalah yang berhubungan dengan OS/BIOS"
                   }
                 ]
               },
@@ -292,7 +306,8 @@
                   {
                     "gejala": "Tidak dapat masuk sistem operasi",
                     "problem": "Kerusakan Kabel Sata Harddisk",
-                    "solution": "Beli Kabel Sata Harddisk baru"
+                    "solution": "Beli Kabel Sata Harddisk baru",
+                    "topic": "Masalah yang berhubungan dengan OS/BIOS"
                   }
                 ]
               },
@@ -311,7 +326,8 @@
                           {
                             "gejala": "Muncul pesan windows kekurangan virtual memori",
                             "problem": "Memori Kurang",
-                            "solution": "Menambah memori"
+                            "solution": "Menambah memori",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
                           }
                         ]
                       },
@@ -334,7 +350,8 @@
                                       {
                                         "gejala": "Suara tidak keluar meskipun driver dan setting sudah mengikuti petunjuk",
                                         "problem": "Sound Card Rusak",
-                                        "solution": "Beli Sound Card baru"
+                                        "solution": "Beli Sound Card baru",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
@@ -345,7 +362,8 @@
                           {
                             "gejala": "Muncul pesan USB Device Recognized",
                             "problem": "Kerusakan Port USB",
-                            "solution": "Memperbaiki Port USB"
+                            "solution": "Memperbaiki Port USB",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
                           },
                           {
                             "gejala": "Tidak muncul error message",
@@ -362,7 +380,8 @@
                                       {
                                         "gejala": "Tombol Keyboard tidak berfungsi",
                                         "problem": "Kerusakan Keyboard",
-                                        "solution": "Cabut pasang colokan keyboard, bawa ke tukang servis, atau beli keyboard baru. (mungkin keyboard sudah terlalu lama)"
+                                        "solution": "Cabut pasang colokan keyboard, bawa ke tukang servis, atau beli keyboard baru. (mungkin keyboard sudah terlalu lama)",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   },
@@ -373,17 +392,20 @@
                                       {
                                         "gejala": "Mouse menyala namun tombol tidak berfungsi",
                                         "problem": "Kerusakan Mouse",
-                                        "solution": "Cabut pasang colokan mouse, coba tarik tombol mouse secara perlahan bisa saja trigger nya tersangkut. Jika tetap tidak berfungsi, artinya ada kerusakan internal servis/beli baru."
+                                        "solution": "Cabut pasang colokan mouse, coba tarik tombol mouse secara perlahan bisa saja trigger nya tersangkut. Jika tetap tidak berfungsi, artinya ada kerusakan internal servis/beli baru.",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak bisa melakukan print",
                                         "problem": "Kerusakan pada driver printer",
-                                        "solution": "Install ulang driver printer"
+                                        "solution": "Install ulang driver printer",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak bisa melakukan scan",
                                         "problem": "Kerusakan pada driver scanner",
-                                        "solution": "Install ulang driver scanner"
+                                        "solution": "Install ulang driver scanner",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
@@ -412,12 +434,14 @@
                                       {
                                         "gejala": "Konfigurasi IP address benar",
                                         "problem": "Kerusakan Port Ethernet RJ-45",
-                                        "solution": "Coba untuk colok ulang dan bersihkan port ethernetnya karena mungkin terdapat debu, atau beli Port Ethernet RJ-45 baru atau perbaiki yang sudah ada"
+                                        "solution": "Coba untuk colok ulang dan bersihkan port ethernetnya karena mungkin terdapat debu, atau beli Port Ethernet RJ-45 baru atau perbaiki yang sudah ada",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak ada bunyi sound",
                                         "problem": "Kerusakan Port Audio",
-                                        "solution": "Coba untuk colok ulang. Jika tidak bisa, bongkar CPU dan cek apakah lempengan tembaga di jack audio ada yang patah atau bengkok. Jika ternyata ada yang bengkok, coba luruskan. Jika patah, dapat membeli baru casing komputer"
+                                        "solution": "Coba untuk colok ulang. Jika tidak bisa, bongkar CPU dan cek apakah lempengan tembaga di jack audio ada yang patah atau bengkok. Jika ternyata ada yang bengkok, coba luruskan. Jika patah, dapat membeli baru casing komputer",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
@@ -446,74 +470,88 @@
                                       {
                                         "gejala": "Pointer mouse merespon gerakan",
                                         "problem": "Kerusakan Mouse",
-                                        "solution": "Memperbaiki mouse atau membeli mouse baru"
+                                        "solution": "Memperbaiki mouse atau membeli mouse baru",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Pointer mouse tidak merespon gerakan",
                                         "problem": "Kerusakan Mouse",
-                                        "solution": "Memperbaiki mouse atau membeli mouse baru"
+                                        "solution": "Memperbaiki mouse atau membeli mouse baru",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Kursor mouse bergerak tidak stabil / bergerak sendiri",
                                         "problem": "Kerusakan Mouse",
-                                        "solution": "Memperbaiki mouse atau membeli mouse baru"
+                                        "solution": "Memperbaiki mouse atau membeli mouse baru",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Kabel VGA terpasangang dengan baik, namun tetap tidak ada gambar di monitor",
                                         "problem": "Kerusakan RAM",
-                                        "solution": "Memasang kembali RAM, atau membeli RAM baru"
+                                        "solution": "Memasang kembali RAM, atau membeli RAM baru",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak bisa terhubung dengan internet/jaringan",
                                         "problem": "Tidak ada kartu jaringan atau NIC pada komputer",
-                                        "solution": "Periksa kartu jaringan"
+                                        "solution": "Periksa kartu jaringan",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Gagal Konfigurasi IP address",
                                         "problem": "Konfigurasi IP address tidak sesuai",
-                                        "solution": "Konfigurasi IP address yang sesuai"
+                                        "solution": "Konfigurasi IP address yang sesuai",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Konfigurasi IP address benar",
                                         "problem": "Kerusakan pada media penghubung atau wireless",
-                                        "solution": "Periksa media penghubung atau wireless"
+                                        "solution": "Periksa media penghubung atau wireless",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak bisa melakukan scan",
                                         "problem": "Kabel Scanner tidak terpasang dengan benar",
-                                        "solution": "Pasang kabel scanner dengan benar"
+                                        "solution": "Pasang kabel scanner dengan benar",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   },
                                   {
                                     "gejala": "Bunyi beep 1X nonstop",
                                     "problem": "Kerusakan di modul memory atau modul video",
-                                    "solution": "Memperbaiki modul memory atau modul video"
+                                    "solution": "Memperbaiki modul memory atau modul video",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   },
                                   {
                                     "gejala": "Bunyi beep 1 kali",
                                     "problem": "Kerusakan pada RAM/ tidak terpasang dengan baik",
-                                    "solution": "Memasang kembali RAM, atau membeli RAM baru"
+                                    "solution": "Memasang kembali RAM, atau membeli RAM baru",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   },
                                   {
                                     "gejala": "Bunyi beep pendek 2 kali",
                                     "problem": "Kerusakan pada DRAM",
-                                    "solution": "Cek pemasangan VGA"
+                                    "solution": "Cek pemasangan VGA",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   },
                                   {
                                     "gejala": "Bunyi beep pendek 3 kali",
                                     "problem": "Kerusakan pada VGA / tidak terpasang dengan baik",
-                                    "solution": "Cek pemasangan VGA"
+                                    "solution": "Cek pemasangan VGA",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   },
                                   {
                                     "gejala": "Bunyi beep pendek 4 - 6 kali",
                                     "problem": "Kerusakan pada GateA20 atau keyboard rusak",
-                                    "solution": "Cek pemasangan GateA20 atau mengecek keyboard apakah bermasalah"
+                                    "solution": "Cek pemasangan GateA20 atau mengecek keyboard apakah bermasalah",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   },
                                   {
                                     "gejala": "Bunyi beep 11 kali",
                                     "problem": "Checksum Error",
-                                    "solution": "Periksa bateria BIOS"
+                                    "solution": "Periksa bateria BIOS",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   }
                                 ]
                               }
@@ -540,12 +578,14 @@
                                       {
                                         "gejala": "Tidak bisa melakukan print",
                                         "problem": "Kerusakan pada printer",
-                                        "solution": "Melakukan perbaikan pada printer"
+                                        "solution": "Melakukan perbaikan pada printer",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak bisa melakukan scan",
                                         "problem": "Kerusakan pada scanner",
-                                        "solution": "Melakukan perbaikan pada scanner"
+                                        "solution": "Melakukan perbaikan pada scanner",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
@@ -574,12 +614,14 @@
                                       {
                                         "gejala": "Tidak dapat menampilkan di projector",
                                         "problem": "Kerusakan Port VGA",
-                                        "solution": "Perbaiki port VGA"
+                                        "solution": "Perbaiki port VGA",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       },
                                       {
                                         "gejala": "Tidak muncul nama VGA di sistem operasi",
                                         "problem": "Kerusakan Port VGA",
-                                        "solution": "Perbaiki port VGA"
+                                        "solution": "Perbaiki port VGA",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
@@ -612,7 +654,8 @@
                               {
                                 "gejala": "Muncul pesan error saat pertama OS diload di HDD",
                                 "problem": "OS bermasalah",
-                                "solution": "Install ulang OS baru"
+                                "solution": "Install ulang OS baru",
+                                "topic": "Masalah yang berhubungan dengan Error Message"
                               }
                             ]
                           }
@@ -623,195 +666,204 @@
                 ]
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "gejala": "Tombol monitor hidup namun tidak ada gambar",
+        "topic": "Masalah yang berhubungan dengan Tampilan",
+        "next": [
           {
-            "gejala": "Tombol monitor hidup namun tidak ada gambar",
-            "topic": "Masalah yang berhubungan dengan Tampilan",
+            "gejala": "Booting lancar",
+            "topic": "Masalah yang berhubungan dengan Masa Hidup",
             "next": [
               {
-                "gejala": "Booting lancar",
-                "topic": "Masalah yang berhubungan dengan Masa Hidup",
+                "gejala": "Memory tidak mengalami masalah",
+                "topic": "Masalah yang berhubungan dengan Memory",
                 "next": [
                   {
-                    "gejala": "Memory tidak mengalami masalah",
-                    "topic": "Masalah yang berhubungan dengan Memory",
+                    "gejala": "Tidak ada tampilan awal BIOS",
+                    "topic": "Masalah yang berhubungan dengan OS/BIOS",
                     "next": [
                       {
-                        "gejala": "Tidak ada tampilan awal BIOS",
-                        "topic": "Masalah yang berhubungan dengan OS/BIOS",
+                        "gejala": "Device driver informasi tidak terdeteksi dalam device manager",
+                        "topic": "Masalah yang berhubungan dengan Device",
                         "next": [
                           {
-                            "gejala": "Device driver informasi tidak terdeteksi dalam device manager",
-                            "topic": "Masalah yang berhubungan dengan Device",
+                            "gejala": "Crash / muncul error pada aplikasi",
+                            "topic": "Masalah yang berhubungan dengan Error Message",
                             "next": [
                               {
-                                "gejala": "Crash / muncul error pada aplikasi",
-                                "topic": "Masalah yang berhubungan dengan Error Message",
+                                "gejala": "Kabel terpasang dengan baik",
+                                "topic": "Masalah yang berhubungan dengan Kabel",
                                 "next": [
                                   {
-                                    "gejala": "Kabel terpasang dengan baik",
-                                    "topic": "Masalah yang berhubungan dengan Kabel",
+                                    "gejala": "Tidak ada bunyi Beep",
+                                    "topic": "Masalah yang berhubungan dengan Beep",
                                     "next": [
                                       {
-                                        "gejala": "Tidak ada bunyi Beep",
-                                        "topic": "Masalah yang berhubungan dengan Beep",
-                                        "next": [
-                                          {
-                                            "gejala": "Suara tidak keluar meskipun driver dan setting sudah mengikuti petunjuk",
-                                            "problem": "VGA Rusak",
-                                            "solution": "Beli VGA baru, perbaiki VGA yang sudah rusak"
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
-                            "topic": "Masalah yang berhubungan dengan Device",
-                            "next": [
-                              {
-                                "gejala": "Muncul pesan error pada BIOS",
-                                "problem": "Prosesor Rusak",
-                                "solution": "Servis prosesor, atau beli prosesor baru yang lebih baik"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "gejala": "Kinerja grafis sangat berat, biasanya dalam game dan manipulasi gambar",
-            "topic": "Masalah yang berhubungan dengan Tampilan",
-            "next": [
-              {
-                "gejala": "Booting Lancar",
-                "topic": "Masalah yang berhubungan dengan Masa Hidup",
-                "next": [
-                  {
-                    "gejala": "Memory tidak mengalami masalah",
-                    "topic": "Masalah yang berhubungan dengan Memory",
-                    "next": [
-                      {
-                        "gejala": "Masuk OS tanpa masalah",
-                        "topic": "Masalah yang berhubungan dengan OS/BIOS",
-                        "next": [
-                          {
-                            "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
-                            "topic": "Masalah yang berhubungan dengan Device",
-                            "next": [
-                              {
-                                "gejala": "Crash / muncul error pada aplikasi",
-                                "problem": "Memori VGA Kurang",
-                                "solution": "Menambah memori VGA, mengganti memori VGA dengan yang lebih baik"
-                              }
-                            ]
-                          },
-                          {
-                            "gejala": "Device tidak terdeteksi dalam BIOS",
-                            "problem": "Kabel Idle Rusak",
-                            "solution": "Memperbaiki kabel idle atau menggantinya dengan yang baru"
-                          },
-                          {
-                            "gejala": "Hanya sebagian perangkat yang bekerja",
-                            "problem": "Kurang Daya pada Power Supply",
-                            "solution": "Menambah daya pada Power Supply"
-                          },
-                          {
-                            "gejala": "Device driver informasi tidak terdeteksi dalam device manager",
-                            "problem": "Perangkat USB Rusak",
-                            "solution": "Memperbaiki perangkat USB yang rusak atau menggantinya dengan yang baru"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "gejala": "Muncul bluescreen",
-            "topic": "Masalah yang berhubungan dengan Tampilan",
-            "next": [
-              {
-                "gejala": "Booting Lancar",
-                "topic": "Masalah yang berhubungan dengan Masa Hidup",
-                "next": [
-                  {
-                    "gejala": "Memory tidak mengalami masalah",
-                    "topic": "Masalah yang berhubungan dengan Memory",
-                    "next": [
-                      {
-                        "gejala": "Masuk OS tanpa masalah",
-                        "topic": "Masalah yang berhubungan dengan OS/BIOS",
-                        "next": [
-                          {
-                            "gejala": "Driver sudah diinstall",
-                            "topic": "Masalah yang berhubungan dengan Device",
-                            "next": [
-                              {
-                                "gejala": "Tidak muncul error message",
-                                "topic": "Masalah yang berhubungan dengan Error Message",
-                                "next": [
-                                  {
-                                    "gejala": "Kabel terpasang dengan baik",
-                                    "topic": "Masalah yang berhubungan dengan Kabel",
-                                    "next": [
-                                      {
-                                        "gejala": "Bunyi beep 1 kali",
+                                        "gejala": "Suara tidak keluar meskipun driver dan setting sudah mengikuti petunjuk",
                                         "problem": "VGA Rusak",
-                                        "solution": "Beli VGA baru, perbaiki VGA yang sudah rusak"
+                                        "solution": "Beli VGA baru, perbaiki VGA yang sudah rusak",
+                                        "topic": "Masalah yang berhubungan dengan Lainnya"
                                       }
                                     ]
                                   }
                                 ]
-                              }
-                            ]
-                          },
-                          {
-                            "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
-                            "topic": "Masalah yang berhubungan dengan Device",
-                            "next": [
-                              {
-                                "gejala": "Crash / muncul error pada aplikasi",
-                                "problem": "Aplikasi Rusak",
-                                "solution": "Install ulang aplikasi"
                               }
                             ]
                           }
                         ]
                       },
                       {
-                        "gejala": "Informasi deteksi yang salah dalam BIOS",
-                        "topic": "Masalah yang berhubungan dengan OS/BIOS",
+                        "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
+                        "topic": "Masalah yang berhubungan dengan Device",
                         "next": [
                           {
-                            "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
-                            "topic": "Masalah yang berhubungan dengan Device",
+                            "gejala": "Muncul pesan error pada BIOS",
+                            "problem": "Prosesor Rusak",
+                            "solution": "Servis prosesor, atau beli prosesor baru yang lebih baik",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "gejala": "Kinerja grafis sangat berat, biasanya dalam game dan manipulasi gambar",
+        "topic": "Masalah yang berhubungan dengan Tampilan",
+        "next": [
+          {
+            "gejala": "Booting Lancar",
+            "topic": "Masalah yang berhubungan dengan Masa Hidup",
+            "next": [
+              {
+                "gejala": "Memory tidak mengalami masalah",
+                "topic": "Masalah yang berhubungan dengan Memory",
+                "next": [
+                  {
+                    "gejala": "Masuk OS tanpa masalah",
+                    "topic": "Masalah yang berhubungan dengan OS/BIOS",
+                    "next": [
+                      {
+                        "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
+                        "topic": "Masalah yang berhubungan dengan Device",
+                        "next": [
+                          {
+                            "gejala": "Crash / muncul error pada aplikasi",
+                            "problem": "Memori VGA Kurang",
+                            "solution": "Menambah memori VGA, mengganti memori VGA dengan yang lebih baik",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
+                          }
+                        ]
+                      },
+                      {
+                        "gejala": "Device tidak terdeteksi dalam BIOS",
+                        "problem": "Kabel Idle Rusak",
+                        "solution": "Memperbaiki kabel idle atau menggantinya dengan yang baru",
+                        "topic": "Masalah yang berhubungan dengan Device"
+                      },
+                      {
+                        "gejala": "Hanya sebagian perangkat yang bekerja",
+                        "problem": "Kurang Daya pada Power Supply",
+                        "solution": "Menambah daya pada Power Supply",
+                        "topic": "Masalah yang berhubungan dengan Device"
+                      },
+                      {
+                        "gejala": "Device driver informasi tidak terdeteksi dalam device manager",
+                        "problem": "Perangkat USB Rusak",
+                        "solution": "Memperbaiki perangkat USB yang rusak atau menggantinya dengan yang baru",
+                        "topic": "Masalah yang berhubungan dengan Device"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "gejala": "Muncul bluescreen",
+        "topic": "Masalah yang berhubungan dengan Tampilan",
+        "next": [
+          {
+            "gejala": "Booting Lancar",
+            "topic": "Masalah yang berhubungan dengan Masa Hidup",
+            "next": [
+              {
+                "gejala": "Memory tidak mengalami masalah",
+                "topic": "Masalah yang berhubungan dengan Memory",
+                "next": [
+                  {
+                    "gejala": "Masuk OS tanpa masalah",
+                    "topic": "Masalah yang berhubungan dengan OS/BIOS",
+                    "next": [
+                      {
+                        "gejala": "Driver sudah diinstall",
+                        "topic": "Masalah yang berhubungan dengan Device",
+                        "next": [
+                          {
+                            "gejala": "Tidak muncul error message",
+                            "topic": "Masalah yang berhubungan dengan Error Message",
                             "next": [
                               {
-                                "gejala": "Tidak muncul error message",
-                                "topic": "Masalah yang berhubungan dengan Error Message",
+                                "gejala": "Kabel terpasang dengan baik",
+                                "topic": "Masalah yang berhubungan dengan Kabel",
                                 "next": [
                                   {
-                                    "gejala": "Kabel terpasang dengan baik",
-                                    "topic": "Masalah yang berhubungan dengan Kabel",
-                                    "next": [
-                                      {
-                                        "gejala": "Bunyi beep pendek 3 kali",
-                                        "problem": "Kerusakan RAM",
-                                        "solution": "Beli RAM baru atau perbaiki RAM yang terpasang"
-                                      }
-                                    ]
+                                    "gejala": "Bunyi beep 1 kali",
+                                    "problem": "VGA Rusak",
+                                    "solution": "Beli VGA baru, perbaiki VGA yang sudah rusak",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
+                        "topic": "Masalah yang berhubungan dengan Device",
+                        "next": [
+                          {
+                            "gejala": "Crash / muncul error pada aplikasi",
+                            "problem": "Aplikasi Rusak",
+                            "solution": "Install ulang aplikasi",
+                            "topic": "Masalah yang berhubungan dengan Error Message"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "gejala": "Informasi deteksi yang salah dalam BIOS",
+                    "topic": "Masalah yang berhubungan dengan OS/BIOS",
+                    "next": [
+                      {
+                        "gejala": "Device terdeteksi, dan berfungsi seperti seharusnya",
+                        "topic": "Masalah yang berhubungan dengan Device",
+                        "next": [
+                          {
+                            "gejala": "Tidak muncul error message",
+                            "topic": "Masalah yang berhubungan dengan Error Message",
+                            "next": [
+                              {
+                                "gejala": "Kabel terpasang dengan baik",
+                                "topic": "Masalah yang berhubungan dengan Kabel",
+                                "next": [
+                                  {
+                                    "gejala": "Bunyi beep pendek 3 kali",
+                                    "problem": "Kerusakan RAM",
+                                    "solution": "Beli RAM baru atau perbaiki RAM yang terpasang",
+                                    "topic": "Masalah yang berhubungan dengan Beep"
                                   }
                                 ]
                               }
@@ -844,12 +896,14 @@
               {
                 "gejala": "Power supply tidak menyala",
                 "problem": "Kerusakan pada power supply",
-                "solution": "Perbaiki power supply atau beli power supply baru"
+                "solution": "Perbaiki power supply atau beli power supply baru",
+                "topic": "Masalah yang berhubungan dengan Device"
               },
               {
                 "gejala": "Power supply menyala",
                 "problem": "Motherboard Rusak",
-                "solution": "Perbaiki motherboard atau beli motherboard baru"
+                "solution": "Perbaiki motherboard atau beli motherboard baru",
+                "topic": "Masalah yang berhubungan dengan Device"
               }
             ]
           }
