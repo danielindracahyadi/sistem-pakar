@@ -52,6 +52,13 @@ export class AppComponent implements OnInit {
       this.firstTree = false;
     } else {
       this.questions = this.selectedOption.next;
+      while (1) {
+        if (this.questions.length === 1 && this.questions[0].next) {
+          this.questions = this.questions[0].next;
+        } else {
+          break;
+        }
+      }
       this.selectedOption = null;
     }
   }
