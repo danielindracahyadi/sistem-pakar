@@ -4,11 +4,13 @@
       <img src="../assets/logo.png" width="210" height="210" />
     </div>
     <p class="description">
-      DIACOM merupakan sebuah web apps expert systems yang dapat digunakan untuk
-      mendiagnosa kerusakan-kerusakan pada komputer. DIACOM membantu user
-      mendeteksi kerusakan dengan memberikan opsi kepada user mengenai gejala
-      kerusakan yang dialami. Kemudian DIACOM akan memberikan jawaban mengenai
-      kerusakan apa yang terjadi pada komputer dan solusinya.
+      <b class="bold">DIACOM</b> merupakan sebuah
+      <i>web apps expert systems </i> yang dapat digunakan untuk mendiagnosa
+      kerusakan-kerusakan pada komputer. <b class="bold">DIACOM</b> membantu
+      user mendeteksi kerusakan dengan memberikan opsi kepada user mengenai
+      gejala kerusakan yang dialami. Selanjutnya <b class="bold">DIACOM</b> akan
+      memberikan jawaban mengenai kerusakan apa yang terjadi pada komputer dan
+      solusinya.
     </p>
     <div class="divButton">
       <button class="btn btn-info  btn-fill" (click)="start()">
@@ -18,7 +20,10 @@
   </div>
 </div>
 
-<div class="background" *ngIf="firstTree">
+<div class="background-expert" *ngIf="firstTree">
+  <div class="abs-logo">
+    <img src="../assets/transparent-logo.png" width="120" height="120" />
+  </div>
   <div class="card-expert">
     <h1 class="question">
       {{ questions[0].topic }}
@@ -45,26 +50,32 @@
   </div>
   <div class="nav-container">
     <button class="nav-btn back" (click)="back()">
-      Back
+      Kembali
     </button>
     <button class="nav-btn next" (click)="next()">
-      Next
+      Lanjut
     </button>
   </div>
 </div>
 
 <div class="background" *ngIf="result">
+  <div class="abs-logo">
+    <img src="../assets/transparent-logo.png" width="120" height="120" />
+  </div>
   <div class="card-expert">
     <h3 class="problem-capt">Permasalahan yang kamu alami :</h3>
     <h1 class="problem">{{ selectedOption.problem }}</h1>
 
+    <h3 class="problem-capt" style="margin-top: 50px; margin-bottom: -5px;">
+      Apa yang terjadi dan penyelesaiannya :
+    </h3>
     <p class="explanation">
       {{ selectedOption.solution }}
     </p>
   </div>
   <div class="nav-container">
-    <button class="nav-btn next" (click)="restart()">
-      Coba lagi
+    <button class="nav-btn btn-home" (click)="restart()">
+      Kembali ke Halaman Utama
     </button>
   </div>
 </div>
